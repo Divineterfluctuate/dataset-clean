@@ -1,0 +1,50 @@
+{
+    "name":  "dataset-clean",
+    "logo":  "🫧",
+    "exe":  "DatasetClean.exe",
+    "desc":  "Free, open-source dataset cleaner for Windows — finds blurry, tiny, broken and mislabeled training images. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "dataset-cleaning",
+                   "image-quality",
+                   "blur-detection",
+                   "training-data",
+                   "lora-training",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "corrupt-files",
+                   "resolution-check",
+                   "caption-check",
+                   "report",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Blur scoring** — Laplacian variance ranking surfaces the soft shots that teach a model nothing",
+                     "✅ **Resolution floor** — flags anything under your minimum edge length for the planned training resolution",
+                     "✅ **Corrupt file detection** — truncated JPEGs and unreadable files found before the trainer crashes on them",
+                     "✅ **Caption pair check** — images without captions and orphan captions without images listed together",
+                     "✅ **Review before action** — problems grouped by type with thumbnails; decide per item or in bulk",
+                     "✅ **HTML report** — shareable quality report of the dataset with every finding",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, fully offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **dataset-clean** | Manual review | Scripts | Generic dupe finders |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Your evening | Free, OSS | Free or paid |",
+                    "| Open source | **Yes** | N/A | Yes | Partial |",
+                    "| Blur quality scoring | **Yes** | Eyeball only | Scripted | No |",
+                    "| Caption pair validation | **Yes** | Rare | Scripted | No |",
+                    "| Grouped findings report | **Yes** | No | No | Partial",
+                    "| Portable, no install | **Yes, 100 MB** | N/A | Python env | Varies"
+                ],
+    "faqQ":  "why does my LoRA look blurry? how to find bad images in a dataset",
+    "faqA":  "A model learns whatever is in the set, including the blurry, tiny and corrupt files nobody opened. dataset-clean scores sharpness, checks resolution and caption pairs, and groups findings for fast bulk decisions. It is a 100 MB portable exe, MIT, offline, and it reports before it touches a single file.",
+    "s1":  "Dark audit (#121418, cyan #22D3EE): findings sidebar with blur, low-res and corrupt groups, image grid sorted worst-first, score chip reading blur 12.4.",
+    "s2":  "Caption pair view: three problem rows — image missing caption, orphan txt, empty caption — with open-folder and bulk-fix buttons.",
+    "s3":  "HTML report preview: quality summary cards with percentages, worst offenders strip at bottom, export button, toast reading report saved."
+}
